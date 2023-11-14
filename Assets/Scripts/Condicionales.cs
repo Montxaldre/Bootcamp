@@ -279,6 +279,7 @@ public class Condicionales : MonoBehaviour
         }
     }
 
+    //Ordenar 3 números de mayor a menoy y de menor a mayor
     private void Order3Numbers()
     {
         int largest, middle, smallest;
