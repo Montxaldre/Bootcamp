@@ -1,7 +1,8 @@
 # Bootcamp
  Ejercicios bootcamp
 
+## Listado ejercicios
 
-Listado ejercicios
+3. [Bucles](/Assets/Scripts/Bucles.cs)
 
-3. Bucles: https://github.com/Montxaldre/Bootcamp/blob/main/Assets/Scripts/Bucles.cs
+4. [Condicionales](/Assets/Scripts/Condicionales.cs)
