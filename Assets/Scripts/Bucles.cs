@@ -8,7 +8,7 @@ public class Bucles : MonoBehaviour
 
     void Start()
     {
-        AddNumbers1ToNumberFor();
+
     }
 
     //Números de 0 a 100
@@ -54,7 +54,6 @@ public class Bucles : MonoBehaviour
     //contar de 1 hasta el número indicado
     private void Loop1ToNumberFor()
     {
-
         for (int vueltas = 1; vueltas <= number; vueltas++)
         {
             Debug.Log(vueltas + " For");
