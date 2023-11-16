@@ -8,6 +8,7 @@ public class Arrays : MonoBehaviour
     void Start()
     {
         AddArray();
+        PositiveNumbers();
     }
 
 
@@ -26,15 +27,6 @@ public class Arrays : MonoBehaviour
             i++;
         }
 
-        while (i < array.Length)
-        {
-            if (array[i] > 0)
-            {
-                Debug.Log("Los números negativos son: " + array[i]);
-            }
-
-            i++;
-        }
     }
     private void NegativeNumbers()
     {
@@ -60,7 +52,7 @@ public class Arrays : MonoBehaviour
         int[] array2 = { 1, 2, 3, 4, 5 };
         int[] result = { 0, 0, 0, 0, 0 };
         //int[] result = new int[array1.Length];
-        
+        //int[] result = new int[5];
 
         if (array1.Length != array2.Length)
         {
@@ -72,7 +64,6 @@ public class Arrays : MonoBehaviour
             result[i] = array1[i] + array2[i];
             Debug.Log(result[i]);
         }
-
 
     }
 }
